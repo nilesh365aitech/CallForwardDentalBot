@@ -23,7 +23,7 @@ app.all('/answer/', (req, res) => {
     const dial = response.addDial(params);
     
     // Add the destination number (with India country code +91)
-    dial.addNumber("+916263573606");
+    dial.addNumber("+918875506226");
     
     // Set proper content type for Plivo XML
     res.set({
